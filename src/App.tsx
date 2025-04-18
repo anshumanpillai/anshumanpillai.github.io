@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import WebPageHeader from './header/webPageHeader';
 import IntroductoryText from './IntroductoryText';
+import AboutSection from './about/AboutSection';
 
 function App() {
   return (
@@ -11,6 +12,9 @@ function App() {
           <WebPageHeader/>
           <IntroductoryText/>
         </header>
+        <div id='About'>
+          <AboutSection/>
+        </div>
       </div>
     </div>
   );

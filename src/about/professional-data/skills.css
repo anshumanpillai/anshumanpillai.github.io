@@ -1,0 +1,8 @@
+.skillList li{
+   list-style: none;
+   margin: 10px 0;
+}
+
+.tab-contents.active-tab{
+    display: block;
+}

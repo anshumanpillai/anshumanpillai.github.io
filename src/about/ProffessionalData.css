@@ -1,0 +1,29 @@
+.tab-titles{
+    display: flex;
+    margin: 20px 0 40px;
+}
+
+.tab-links{
+    margin-right:50px ;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+}
+
+.tab-links::after{
+    content: "";
+    width: 0;
+    height:3px;
+    background: #fff;
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+  }
+
+  .tab-links:hover::after{
+    width: 100%;
+  }
+  .tab-contents{
+    display: none;
+   }

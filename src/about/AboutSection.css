@@ -1,0 +1,25 @@
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.about-col1{
+    flex-basis: 35%;
+}
+
+.about-col1 img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.about-col2{
+    flex-basis: 60%;
+}
+
+.about-col2 h1{
+    color: white;
+    font-weight: 600;
+    font-size: 60px;
+}
+
