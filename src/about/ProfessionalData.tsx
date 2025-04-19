@@ -6,7 +6,7 @@ import Skills from "./professional-data/skills"
 import "./ProffessionalData.css"
 
 const professionalData=()=>{
-    const [skillSectionVisible,setSkillSectionVisible]=useState<boolean>(false)
+    const [skillSectionVisible,setSkillSectionVisible]=useState<boolean>(true)
     const [ExperienceSectionVisible,setExperienceSectionVisible]=useState<boolean>(false)
     const [EducationSectionVisible,setEducationSectionVisible]=useState<boolean>(false)
 
