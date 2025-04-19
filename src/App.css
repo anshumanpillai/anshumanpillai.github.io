@@ -11,6 +11,14 @@
   color: #ababab;
 }
 
+#certifications{
+  padding:30px 0
+}
+
+#Projects{
+  padding: 50px 0;
+}
+
 /* .App-logo {
   height: 40vmin;
   pointer-events: none;

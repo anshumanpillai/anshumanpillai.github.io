@@ -2,14 +2,14 @@ import "./webPageHeader.css"
 
 const webPageHeader=()=>{
 return(
-    <div className=' container'>
+    <div className=' container' >
         <nav>
             <img src="\newLogo.png" className='App-logo'/>
             <ul>
-                <li><a href='#'>About</a></li>
-                <li><a href='#'>Projects</a></li>
-                <li><a href='#'>Certifications</a></li>
-                <li><a href='#'>Contact me</a></li>
+                <li><a href='#About'>About</a></li>
+                <li><a href='#Projects'>Projects</a></li>
+                <li><a href='#Certifications'>Certifications</a></li>
+                <li><a href='#ContactMe'>Contact me</a></li>
             </ul>
        </nav>
     </div>
